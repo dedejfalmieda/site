@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jéssica Almeida | Criação de Sites</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f4f6f9;
+color:#333;
+}
+
+header{
+background:#0d47a1;
+padding:20px;
+text-align:center;
+color:#fff;
+}
+
+header h1{
+font-size:40px;
+}
+
+.hero{
+background:linear-gradient(135deg,#1565c0,#42a5f5);
+padding:70px 20px;
+text-align:center;
+color:#fff;
+}
+
+.hero img{
+width:280px;
+max-width:90%;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+margin-bottom:30px;
+}
+
+.hero h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.botao{
+display:inline-block;
+background:#ff9800;
+color:#fff;
+padding:15px 35px;
+text-decoration:none;
+border-radius:50px;
+font-size:20px;
+font-weight:bold;
+transition:.3s;
+}
+
+.botao:hover{
+background:#e68900;
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+color:#0d47a1;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card h3{
+color:#1565c0;
+margin-bottom:15px;
+}
+
+.preco{
+font-size:34px;
+color:#2e7d32;
+margin:20px 0;
+font-weight:bold;
+}
+
+footer{
+background:#0d47a1;
+color:#fff;
+padding:30px;
+text-align:center;
+}
+
+footer a{
+color:#FFD54F;
+text-decoration:none;
+}
+
+ul{
+font-size:20px;
+line-height:2;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Jéssica Almeida</h1>
+
+<p>Criação de Sites Profissionais</p>
+
+</header>
+
+<div class="hero">
+
+<img src="SUA_IMAGEM.png" alt="Jéssica Almeida">
+
+<h2>Seu Negócio Merece um Site Profissional</h2>
+
+<p>Sites modernos, rápidos e responsivos para empresas, lojas e eventos.</p>
+
+<a class="botao"
+href="https://wa.me/5532991988933">
+Fale no WhatsApp
+</a>
+
+</div>
+
+<section>
+
+<h2>Serviços</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Site Empresarial</h3>
+<p>Ideal para empresas.</p>
+<div class="preco">R$350</div>
+</div>
+
+<div class="card">
+<h3>Loja Virtual</h3>
+<p>Venda seus produtos online.</p>
+<div class="preco">R$700</div>
+</div>
+
+<div class="card">
+<h3>Landing Page</h3>
+<p>Página para divulgação.</p>
+<div class="preco">R$180</div>
+</div>
+
+<div class="card">
+<h3>Site para Eventos</h3>
+<p>Casamentos, aniversários e festas.</p>
+<div class="preco">R$250</div>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Por que escolher meus serviços?</h2>
+
+<ul>
+
+<li>✔ Design moderno</li>
+
+<li>✔ Site responsivo</li>
+
+<li>✔ Carregamento rápido</li>
+
+<li>✔ Layout personalizado</li>
+
+<li>✔ Suporte</li>
+
+<li>✔ Publicação no GitHub Pages</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Contato</h2>
+
+<div style="text-align:center;">
+
+<p><strong>WhatsApp:</strong> (32) 99198-8933</p>
+
+<p><strong>GitHub:</strong></p>
+
+<p>
+<a href="https://github.com/dedejfalmieda" target="_blank">
+github.com/dedejfalmieda
+</a>
+</p>
+
+<br>
+
+<a class="botao"
+href="https://wa.me/5532991988933">
+Solicitar Orçamento
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Jéssica Almeida</h3>
+
+<p>Desenvolvimento de Sites • HTML • CSS • JavaScript</p>
+
+<p>© 2026 Todos os direitos reservados.</p>
+
+</footer>
+
+</body>
+</html>
